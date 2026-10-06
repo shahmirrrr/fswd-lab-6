@@ -1,0 +1,88 @@
+body {
+  background: #f5f6f8;
+  font-family: Arial, sans-serif;
+}
+
+#lab06 {
+  max-width: 1100px;
+}
+
+.lab-card {
+  background: white;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.lab-card h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.stat-box {
+  background: #f3f5f7;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.course-name {
+  cursor: pointer;
+}
+
+/* Task 1 completed course */
+
+.completed .course-name {
+  text-decoration: line-through;
+  color: #777777;
+}
+
+/* Task 1 longest course */
+
+.longest-course {
+  background: #fff3cd !important;
+}
+
+
+/* Task 2 student ID card */
+
+.student-id-card {
+  background: #1f3864;
+  color: white;
+  padding: 30px;
+  border-radius: 12px;
+  min-height: 260px;
+}
+
+.student-id-card h4 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+
+/* Task 4 cards */
+
+.student-card {
+  background: white;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 18px;
+  height: 100%;
+}
+
+.student-card h4 {
+  font-size: 20px;
+}
+
+.student-card p {
+  margin-bottom: 5px;
+}
+
+
+/* Edit CGPA area */
+
+.edit-panel {
+  background: #f3f5f7;
+  padding: 20px;
+  border-radius: 8px;
+}
